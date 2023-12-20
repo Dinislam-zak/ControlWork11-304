@@ -55,11 +55,18 @@ public class LinkedList implements ElevatorFree, CallElevator{
         }
         return current;
     }
-
     @Override
-    public void callElevator() {
+    public void callElevator(TypeOfElevator typeOfElevator) {
         Node current = elevatorFree();
-        System.out.println(current.getTypeOfElevator() + " " + current.getStatus() + "Приехал");
+        if (current.getTypeOfElevator().equals(typeOfElevator)){
+            System.out.println(current.getTypeOfElevator() + " " + current.getStatus() + " " + "Приехал");
+        }
+        else {
+            System.out.println("нужный лифт занят");
+
+        }
+
 
     }
+
 }

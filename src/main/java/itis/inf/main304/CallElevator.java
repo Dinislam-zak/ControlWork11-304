@@ -1,5 +1,5 @@
 package itis.inf.main304;
 
 public interface CallElevator {
-    void callElevator();
+    void callElevator(TypeOfElevator typeOfElevator);
 }

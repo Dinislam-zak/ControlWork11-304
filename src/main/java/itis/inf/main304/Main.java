@@ -25,6 +25,32 @@ public class Main {
         list.printList();
 
 
+        list.callElevator(TypeOfElevator.EvenElevator);
+        list.callElevator(TypeOfElevator.OddElevator);
+        list.callElevator(TypeOfElevator.EvenElevator);
+        list.callElevator(TypeOfElevator.OddElevator);
+        list.callElevator(TypeOfElevator.EvenElevator);
+        list.callElevator(TypeOfElevator.OddElevator);
+        list.callElevator(TypeOfElevator.EvenElevator);
+        list.callElevator(TypeOfElevator.OddElevator);
+        list.callElevator(TypeOfElevator.EvenElevator);
+        list.callElevator(TypeOfElevator.OddElevator);
+        list.callElevator(TypeOfElevator.EvenElevator);
+        list.callElevator(TypeOfElevator.OddElevator);
+        list.callElevator(TypeOfElevator.EvenElevator);
+        list.callElevator(TypeOfElevator.OddElevator);
+        list.callElevator(TypeOfElevator.EvenElevator);
+        list.callElevator(TypeOfElevator.OddElevator);
+        list.callElevator(TypeOfElevator.EvenElevator);
+        list.callElevator(TypeOfElevator.OddElevator);
+        list.callElevator(TypeOfElevator.EvenElevator);
+        list.callElevator(TypeOfElevator.OddElevator);
+        list.callElevator(TypeOfElevator.EvenElevator);
+        list.callElevator(TypeOfElevator.EmployeeElevator);
+
+
+
+
 
     }
 }
